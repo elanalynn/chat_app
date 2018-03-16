@@ -1,0 +1,36 @@
+main {
+  max-width: 40em;
+  margin: 4em auto;
+  display: flex;
+  font-family: sans-serif;
+}
+
+form > * {
+  display: block;
+}
+
+#messages {
+  width: 20em;
+  min-height: 30em;
+  background: lightskyblue;
+  color: #222;
+  margin-left: 2em;
+  padding: 1em;
+}
+
+input {
+  padding: .25em;
+  margin-bottom: 1em;
+}
+
+button {
+  background: cadetblue;
+  padding: 1em;
+  border: none;
+  color: white;
+}
+
+.name {
+  font-weight: bold;
+  margin-top: 1em;
+}
