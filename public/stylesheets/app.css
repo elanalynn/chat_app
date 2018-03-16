@@ -1,0 +1,33 @@
+main {
+  width: 100%;
+  max-width: 40em;
+  margin: 4em auto;
+  display: flex;
+}
+
+#messages {
+  width: 300px;
+  min-height: 400px;
+  background: lemonchiffon;
+  color: #222;
+  margin-left: 2em;
+}
+
+#messages > div {
+  width: 300px;
+}
+
+#messages > div:nth-of-type(2n) {
+  background: lightblue;
+}
+
+input {
+  padding: .25em;
+}
+
+button {
+  background: cadetblue;
+  padding: .5em;
+  border: none;
+  color: white;
+}
