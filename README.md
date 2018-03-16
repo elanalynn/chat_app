@@ -4,6 +4,13 @@
 
 This is a super simple chat app that takes advantage of the [Socket.io library](https://socket.io/). 
 
+## Features
+
+- Chat with another user (yourself in an incognito window)
+- Enter name and distinguish messages by user
+- Group subsequent messages together by user (until another user speaks)
+- Aahhhmazing stying
+
 ## Installation/Setup
 
 * Fork and clone the repo onto your machine
